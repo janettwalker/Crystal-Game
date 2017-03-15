@@ -33,6 +33,7 @@ $(".crystal-photo").on("click", function() {
 
 	alert("Collected: " + counter);
 
+
 	if (counter === goal) {
 		alert("You win!");
 		replay();
@@ -49,7 +50,10 @@ $(".crystal-photo").on("click", function() {
 var replay = function(){
 	counter = 0
 
+
 }
+
+
 
 
 
